@@ -23,23 +23,24 @@ body {
     padding: 0 10%;
 }
 
-#album{
+#album, #discography{
     display: flex;
     width: 100%;
+    height: 100vh;
 }
 
 .album{
-    width: 60vw;
+    width: 30vw;
     height: 100vh;
 }
 
 #album img{
-    width: 50%;
+    width: 100%;
 }
 
 
 #tracklist{
-    padding: 10% 10% 2% 5%;
+    padding: 10% 10% 9% 6%;
 }
 
 h1 {
