@@ -2,18 +2,44 @@
     font-family: 'Homoneta';
     src: url('assets/Homoneta-Regular.woff') format('woff');
 }
-html{
+
+@font-face {
+    font-family: 'Homoneta Italic';
+    src: url('assets/Homoneta-Italic.woff') format('woff');
+}
+
+html, h1, h2, h3, h4{
     margin: 0;
 }
 
 body {
-    background: rgb(255,0,179);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,95,244,1) 35%, rgba(255,0,179,1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 95, 244, 1) 35%, rgba(255, 0, 179, 1) 100%);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin: 0;
     font-family: 'Homoneta', sans-serif;
+    width: 100%;
+    padding: 0 10%;
+}
+
+#album{
+    display: flex;
+    width: 100%;
+}
+
+.album{
+    width: 60vw;
+    height: 100vh;
+}
+
+#album img{
+    width: 50%;
+}
+
+
+#tracklist{
+    padding: 10% 10% 2% 5%;
 }
 
 h1 {
@@ -22,12 +48,14 @@ h1 {
     margin: 0;
 }
 
-h2 {
+h2, .symbol {
     color: rgb(255, 95, 244);
 }
 
 h3, h4{
     color: white;
+    font-family: 'Homoneta Italic';
+    font-size: 2em;
 }
 
 img{
@@ -60,3 +88,11 @@ a:hover, ul a:hover{
     color: #980077;
 }
 
+.date{
+    font-family:'Homoneta', sans-serif;
+}
+
+.symbol{
+    font-family: sans-serif;
+    font-weight: 300;
+}
