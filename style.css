@@ -124,11 +124,12 @@ ul {
     list-style: none;
 }
 
-.discography{
+#discography-list{
     display: flex;
+    padding-top: 7%;
 }
 
-.discography li {
+#discography-list li {
     padding: 0px 16px;
 }
 
