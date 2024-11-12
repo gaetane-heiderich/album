@@ -10,6 +10,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
 
+
 header {
   background-image: url('https://rllngr.github.io/La-Toile-Jukebox-Code-Makers/assets/header.svg');
   background-size: cover;
@@ -22,6 +23,7 @@ nav {
   font-family: "Poppins", sans-serif;
   background: white;
   padding-bottom: 10px;
+  width: 100%;
 }
 
 nav ul {
@@ -56,6 +58,7 @@ footer {
   justify-content: center;
   align-items: center;
   font-weight: 400;
+  width: 100%;
   padding: 10px;
 }
 
@@ -68,10 +71,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0;
+    margin:0;
     font-family: 'Homoneta', sans-serif;
     width: 100%;
-    padding: 0 10%;
+}
+section {
+    margin: 2% 5%;
 }
 
 #album, #discography{
@@ -82,7 +87,7 @@ body {
 
 .album{
     width: 30vw;
-    height: 100vh;
+    height: 60vh;
 }
 
 #album img{
